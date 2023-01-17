@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "25041038892",
+    "project_id": "cantwait28-1992",
+    "storage_bucket": "cantwait28-1992.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25041038892:android:ee4858803f0afc9d802b89",
+        "android_client_info": {
+          "package_name": "com.mateuszgadomski.cantwait28"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25041038892-t93e4i2ibru3qsovpnbogbavd57o0sbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwFaCB8bHngoCUbmg4vhjTHpXLihIOphA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25041038892-t93e4i2ibru3qsovpnbogbavd57o0sbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25041038892:android:8998dcb273ac17ca802b89",
+        "android_client_info": {
+          "package_name": "com.mateuszgadomski.cantwait28"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25041038892-t93e4i2ibru3qsovpnbogbavd57o0sbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwFaCB8bHngoCUbmg4vhjTHpXLihIOphA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25041038892-t93e4i2ibru3qsovpnbogbavd57o0sbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
