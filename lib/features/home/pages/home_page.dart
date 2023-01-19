@@ -1,4 +1,5 @@
 import 'package:cantwait28/features/add/page/add_page.dart';
+import 'package:cantwait28/features/auth/pages/user_profile.dart';
 import 'package:cantwait28/features/details/details.dart';
 import 'package:cantwait28/features/home/cubit/home_cubit.dart';
 import 'package:cantwait28/models/item_models.dart';
@@ -15,6 +16,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const UserProfile(),
+                ));
+              },
+              icon: const Icon(Icons.person))
+        ],
         title: const Text('Can\'t Wait 🤩'),
       ),
       body: const _HomePageBody(),
@@ -102,7 +112,7 @@ class _ListViewItem extends StatelessWidget {
     return InkWell(
       onTap: () {
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) =>  DetailsPage(id : itemModel.id),
+          builder: (context) => DetailsPage(id: itemModel.id),
         ));
       },
       child: Padding(
